@@ -1,7 +1,7 @@
 <?php
-$host="containers-us-west-24.railway.app:5456";
+$host="containers-us-west-68.railway.app:5699";
 $user="root";
-$pw="O1eN6wmrPVvC28VNxAkz";
+$pw="7b19DjbUKpEJuERfXrYj";
 $db="railway"; //Este es el nombre de la base de datos
 
 
