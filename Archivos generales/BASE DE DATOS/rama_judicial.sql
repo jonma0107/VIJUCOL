@@ -627,6 +627,7 @@ INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, 
 (466, 'Juzgado 21 Penal Municipal Bogota', 'Bogota', 'pmpal21bt@cendoj.ramajudicial.gov.co', '', ''),
 (467, 'Juzgado 21 Penal Municipal Garantias Bogota', 'Bogota', 'j21pmgbt@cendoj.ramajudicial.gov.co', '', ''),
 (468, 'Juzgado 22 Administrativo Bogota', 'Bogota', 'admin22bt@cendoj.ramajudicial.gov.co', '', '');
+
 INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, `telefono`) VALUES
 (469, 'Juzgado 22 Civil Circuito Bogota', 'Bogota', 'ccto22bt@cendoj.ramajudicial.gov.co', '', ''),
 (470, 'Juzgado 22 Civil Municipal Bogota', 'Bogota', 'j22cmpalbta@cendoj.ramajudicial.gov.co', '', ''),
@@ -1102,6 +1103,7 @@ INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, 
 (940, 'Juzgado 06 Ejecucion Penas Medidas Cali', 'Cali', 'ejp06cali@cendoj.ramajudicial.gov.co', '', ''),
 (941, 'Juzgado 06 Familia Circuito Cali', 'Cali', 'j06fccali@cendoj.ramajudicial.gov.co', '', ''),
 (942, 'Juzgado 06 Laboral Cali', 'Cali', 'j06lccali@cendoj.ramajudicial.gov.co', '', '');
+
 INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, `telefono`) VALUES
 (943, 'Juzgado 06 Penal Circuito Cali', 'Cali', 'j06pccali@cendoj.ramajudicial.gov.co', '', ''),
 (944, 'Juzgado 06 Penal Municipal Cali', 'Cali', 'j06pmcali@cendoj.ramajudicial.gov.co', '', ''),
@@ -1577,6 +1579,7 @@ INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, 
 (1414, 'Juzgado 10 Civil Municipal Manizales', 'Manizales', 'cmpal10ma@cendoj.ramajudicial.gov.co', '', ''),
 (1415, 'Juzgado 11 Civil Municipal Manizales', 'Manizales', 'cmpal11ma@cendoj.ramajudicial.gov.co', '', ''),
 (1416, 'Juzgado 12 Civil Municipal Manizales', 'Manizales', 'cmpal12ma@cendoj.ramajudicial.gov.co', '', '');
+
 INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, `telefono`) VALUES
 (1417, 'Juzgado 01 Penal Circuito Marinilla', 'Marinilla', 'jpencmar@cendoj.ramajudicial.gov.co', '', ''),
 (1418, 'Juzgado 01 Penal Municipal Marinilla', 'Marinilla', 'jpenmmar@cendoj.ramajudicial.gov.co', '', ''),
@@ -2054,6 +2057,10 @@ INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, 
 (1890, 'Juzgado 05 Penal Garantias Pereira', 'Pereira', 'j05pmgper@cendoj.ramajudicial.gov.co', '', ''),
 (1891, 'Juzgado 06 Civil Municipal Pereira', 'Pereira', 'j06cmper@cendoj.ramajudicial.gov.co', '', ''),
 (1892, 'Juzgado 06 Penal Circuito Pereira', 'Pereira', 'j06pcper@cendoj.ramajudicial.gov.co', '', '');
+
+
+
+
 INSERT INTO `juzgados` (`idjuzgado`, `juzgado`, `ciudad`, `email`, `direccion`, `telefono`) VALUES
 (1893, 'Juzgado 06 Penal Garantias Pereira', 'Pereira', 'j06pmgper@cendoj.ramajudicial.gov.co', '', ''),
 (1894, 'Juzgado 06 Penal Municipal Pereira', 'Pereira', 'j06pmper@cendoj.ramajudicial.gov.co', '', ''),
