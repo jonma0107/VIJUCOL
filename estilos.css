@@ -1,0 +1,160 @@
+* {
+  /* padding:0; */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header nav {
+  background: #023859;
+  z-index: 1000;
+  max-width: 100%;
+  width: 100%;
+  /*margin: 20% auto;*/
+}
+
+
+
+
+/*header {
+width: 100%;
+height: 350px;
+background: url(IMAGENES/justici3.png);}*/
+
+
+
+
+/*Quitar listas puntos o vinetas*/
+ul, ol {
+  list-style: none;
+}
+
+/* quitar subrayado y colocar color negro*/
+.nav li a {
+  background-color: #023859;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  /* para separar los bloques*/
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #E6344A;
+}
+
+.nav>li {
+  /*float:left;*/
+  display: inline-block;
+}
+
+/* Desaparecn todos los submenus*/
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+/* Al pasar mouse aparecen opciones*/
+.nav li:hover>ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+
+body {
+  /* width: 100%;
+  height: 100%; */
+  background: orange;
+  background: url(IMAGENES/fondo1.jpg);
+  /*color:#fff;*/
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: 110%;
+
+}
+
+.tabla {
+  font-weight: 900;
+  margin-bottom: 12%;
+  color: #E6344A;
+}
+
+#crear {
+  padding-top: 100px;
+  font-weight: 900;
+  color: #E6344A;
+  margin-bottom: 4%;
+}
+
+#logueo {
+  padding-top: 300px;
+}
+
+#radicado {
+  padding-top: 240px;
+}
+
+#mod_proc_dte {
+  padding-top: 240px;
+}
+
+#mod_proc_dmdo {
+  padding-top: 240px;
+}
+
+
+
+
+#inicio1 {
+  padding-top: 180px;
+}
+
+#especilidad {
+  padding-top: 380px;
+}
+
+
+#registro {
+  padding-top: 150px;
+  font-size: 15px;
+}
+
+
+#mod_user {
+  padding-top: 240px;
+}
+
+
+#modificar_procesos {
+  padding-top: 110px;
+}
+
+
+#cons_proceso {
+  padding-top: 240px;
+}
+
+
+#borrarproceso {
+  padding-top: 240;
+}
+
+#borrarusuario {
+  padding-top: 240;
+}
