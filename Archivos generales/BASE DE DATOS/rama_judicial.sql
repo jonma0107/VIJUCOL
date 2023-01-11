@@ -21,8 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `rama_judicial`
 --
-CREATE DATABASE IF NOT EXISTS `rama_judicial` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
-USE `rama_judicial`;
+-- CREATE DATABASE IF NOT EXISTS `rama_judicial` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+-- USE `rama_judicial`;
 
 -- --------------------------------------------------------
 
@@ -122,16 +122,16 @@ CREATE TABLE `histoprocesos` (
 --
 
 INSERT INTO `histoprocesos` (`radicado`, `fecha`, `juzgado`, `proceso`, `demandante`, `ccdemandante`, `demandado`, `ccdemandado`, `etapa`, `estado`, `observacion`) VALUES
-('963', '0000-00-00 00:00:00', 'Juzgado 05 Ciurcuito Bogota', 'Especial', 'alis', 52424887, 'marcos', 80024855, 'tercera', 2, ''),
-('987', '0000-00-00 00:00:00', 'Juzgado 03 Ciurcuito Bogota', 'Especial', 'yes', 52424888, 'pedro', 80024225, 'segunda', 2, ''),
-('123456', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'juan', 79522225, 'maria', 5242555, 'inicial', 2, ''),
-('121212', '0000-00-00 00:00:00', 'Juzgado 01 Ciurcuito Bogota', 'Especial', 'harold', 79522224, 'nancy', 5242488, 'inicial', 2, ''),
-('2323556', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
-('2323556', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
-('2323556', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
-('2323556', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
-('12345678', '0000-00-00 00:00:00', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Maria Cifuentes', 52033517, 'Carlos Zamora', 800234444, 'Ingreso', 2, ''),
-('88888888', '0000-00-00 00:00:00', '170', '1', 'Juan Rodrigues', 525252, 'Carlos meneses', 101010, '1', 2, ''),
+('963', '2018-12-10 13:43:18', 'Juzgado 05 Ciurcuito Bogota', 'Especial', 'alis', 52424887, 'marcos', 80024855, 'tercera', 2, ''),
+('987', '2018-12-10 13:43:18', 'Juzgado 03 Ciurcuito Bogota', 'Especial', 'yes', 52424888, 'pedro', 80024225, 'segunda', 2, ''),
+('123456', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'juan', 79522225, 'maria', 5242555, 'inicial', 2, ''),
+('121212', '2018-12-10 13:43:18', 'Juzgado 01 Ciurcuito Bogota', 'Especial', 'harold', 79522224, 'nancy', 5242488, 'inicial', 2, ''),
+('2323556', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
+('2323556', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
+('2323556', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
+('2323556', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Omaira Paez', 524656565, 'Gabriel Ramos', 802565655, 'Audiencia Unica', 2, ''),
+('12345678', '2018-12-10 13:43:18', 'Juzgado 02 Ciurcuito Bogota', 'Especial', 'Maria Cifuentes', 52033517, 'Carlos Zamora', 800234444, 'Ingreso', 2, ''),
+('88888888', '2018-12-10 13:43:18', '170', '1', 'Juan Rodrigues', 525252, 'Carlos meneses', 101010, '1', 2, ''),
 ('2147483647', '2018-12-10 13:43:18', '171', '2', 'RWERWE', 213213, 'WEWQEQW', 213123, '2', 2, ' \r\n				'),
 ('2147483647', '2018-12-10 14:41:09', '170', '1', 'wqasd', 1212312, 'qwewqe', 21211, '2', 2, ' \r\n				asadas'),
 ('2147483647', '2018-12-10 14:42:36', '170', '1', 'fdfsd', 324324, 'xdfdfds', 4324324, '4', 2, ' \r\n				sfdfds'),
